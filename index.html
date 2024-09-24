@@ -22,7 +22,7 @@
     <body>
         <header>
             <!-- navbar -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar bg-dark border-bottom border-body bg-body-tertiary" data-bs-theme="dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"><img src="./assets/img/img/duck.png" width="100" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,10 +30,10 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-link active text-white" aria-current="page" href="#">Catalogo Libri</a>
-                      <a class="nav-link text-white" href="#">Anagrafica Utenti</a>
-                      <a class="nav-link text-white" href="#">Storico Prestiti</a>
-                      <a class="nav-link text-white" href="#">Help</a>
+                      <a class="nav-link active" aria-current="page" href="#">Catalogo Libri</a>
+                      <a class="nav-link" href="#">Anagrafica Utenti</a>
+                      <a class="nav-link" href="#">Storico Prestiti</a>
+                      <a class="nav-link" href="#">Help</a>
                     </div>
                   </div>
                 </div>
@@ -42,82 +42,94 @@
         </header>
 
         <main>
-            <!-- table -->
-            <table>
-                <tr class="table-secondary">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr class="table-secondary">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr class="table-secondary">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr class="table-secondary">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr class="table-secondary">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr class="table-secondary">
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-            <!-- end-table -->
+            <div class="container">
+                <!-- table -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Titolo</th>
+                            <th>Data Prestito</th>
+                            <th>Stato</th>
+                            <th>Azioni</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-secondary">
+                            <td>I pilastri della terra</td>
+                            <td>-</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>I promessi sposi</td>
+                            <td>-</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Il signore degli anelli</td>
+                            <td>18/10/2023</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Harry Potter e la pietra filosofale</td>
+                            <td>-</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Il codice Da Vinci</td>
+                            <td>-</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Shining</td>
+                            <td>-</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>La divina commedia</td>
+                            <td>21/09/2023</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Il trono di spade</td>
+                            <td>-</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Il mondo di Sofia</td>
+                            <td>-</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
+                            <td>25/07/2023</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Il piccolo principe</td>
+                            <td>-</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>La storia infinita</td>
+                            <td>-</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- end-table -->
+            </div>
         </main>
 
         <footer>
