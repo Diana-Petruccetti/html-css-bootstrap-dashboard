@@ -22,7 +22,7 @@
     <body>
         <header>
             <!-- navbar -->
-            <nav class="navbar bg-dark border-bottom border-body bg-body-tertiary" data-bs-theme="dark">
+            <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark"> <!-- bg-body-tertiary -->
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"><img src="./assets/img/img/duck.png" width="100" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,13 +44,16 @@
         <main>
             <div class="container">
                 <div class="row">
-                    <div class="d-flex">
+                    <div class="d-flex justify-content-between my-3">
                         <h1>Catalogo Libri</h1>
-                        <button class="btn btn-primary" type="button">Aggiungi Libro</button>
+                        <div>
+                            <button class="btn btn-primary" type="button">Aggiungi Libro</button>
+                        </div>
                     </div>
                 </div>
                 <!-- table -->
                 <table>
+                    <!-- thead -->
                     <thead>
                         <tr>
                             <th>Titolo</th>
@@ -59,7 +62,10 @@
                             <th>Azioni</th>
                         </tr>
                     </thead>
+                    <!-- end-thead -->
+                    <!-- tbody -->
                     <tbody>
+                        <!-- row-1 -->
                         <tr class="table-secondary">
                             <td>I pilastri della terra</td>
                             <td>-</td>
@@ -68,6 +74,7 @@
                             </td>
                             <td></td>
                         </tr>
+                        <!-- row-2 -->
                         <tr class="table-secondary">
                             <td>I promessi sposi</td>
                             <td>-</td>
@@ -76,6 +83,7 @@
                             </td>
                             <td></td>
                         </tr>
+                        <!-- row-3 -->
                         <tr>
                             <td>Il signore degli anelli</td>
                             <td>18/10/2023</td>
@@ -84,6 +92,7 @@
                             </td>
                             <td></td>
                         </tr>
+                        <!-- row-4 -->
                         <tr class="table-secondary">
                             <td>Harry Potter e la pietra filosofale</td>
                             <td>-</td>
@@ -92,6 +101,7 @@
                             </td>
                             <td></td>
                         </tr>
+                        <!-- row-5 -->
                         <tr>
                             <td>Il codice Da Vinci</td>
                             <td>-</td>
@@ -100,6 +110,7 @@
                             </td>
                             <td></td>
                         </tr>
+                        <!-- row-6 -->
                         <tr class="table-secondary">
                             <td>Shining</td>
                             <td>-</td>
@@ -108,6 +119,7 @@
                             </td>
                             <td></td>
                         </tr>
+                        <!-- row-7 -->
                         <tr>
                             <td>La divina commedia</td>
                             <td>21/09/2023</td>
@@ -116,6 +128,7 @@
                             </td>
                             <td></td>
                         </tr>
+                        <!-- row-8 -->
                         <tr class="table-secondary">
                             <td>Il trono di spade</td>
                             <td>-</td>
@@ -124,6 +137,7 @@
                             </td>
                             <td></td>
                         </tr>
+                        <!-- row-9 -->
                         <tr>
                             <td>Il mondo di Sofia</td>
                             <td>-</td>
@@ -132,6 +146,7 @@
                             </td>
                             <td></td>
                         </tr>
+                        <!-- row-10 -->
                         <tr class="table-secondary">
                             <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
                             <td>25/07/2023</td>
@@ -140,6 +155,7 @@
                             </td>
                             <td></td>
                         </tr>
+                        <!-- row-11 -->
                         <tr>
                             <td>Il piccolo principe</td>
                             <td>-</td>
@@ -148,6 +164,7 @@
                             </td>
                             <td></td>
                         </tr>
+                        <!-- row-12 -->
                         <tr>
                             <td>La storia infinita</td>
                             <td>-</td>
@@ -157,6 +174,7 @@
                             <td></td>
                         </tr>
                     </tbody>
+                    <!-- end-tbody -->
                 </table>
                 <!-- end-table -->
             </div>
